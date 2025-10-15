@@ -1,0 +1,56 @@
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+background-color: #eaeaea;
+}
+
+/* Clases generales para todo el contenido HTML */
+
+.cabecera{
+background-color: white; 
+}
+
+header h1{
+    width: 600px;
+    margin: 0px auto;
+    padding: 15px 7px;
+
+}
+.cuerpo{
+    width: 600px;
+    margin: 40px auto;
+    background-color: white;
+
+}
+.contenedor-titulos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+
+}
+.contenedor-titulos h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contenedor-titulos h5{
+    font-size: 14px;
+    color: #a4a4a4;
+    margin: 0;
+}
+
+.contenedor-descripcion{
+    padding: 13px;
+}
+
+/* cambio de color de la etiqueta a */
+
+.contenedor-descripcion a{
+    text-decoration: none;
+    color: #808080;
+    
+}
